@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.accordion{
+  margin: 10px;
+  width: 300px;
+}
+
+.accordion-item{
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item:not(.active) .conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

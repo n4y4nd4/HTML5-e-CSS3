@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+.barra{
+  height: 45px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+li a{
+  display: block;
+  color: #333;
+  float: left;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #ddd;
+}
+
+p{
+  margin: 10px;
+}

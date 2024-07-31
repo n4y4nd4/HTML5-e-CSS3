@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+li{
+  color: green;
+}
+
+.container{
+  height: 230px;
+  width: 300px;
+  background-color:;
+  position: absolute;
+  left: 20%;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+}

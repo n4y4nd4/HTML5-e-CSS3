@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.titulo{
+  text-align: center;
+  color: white;
+  background-color: blue;
+}

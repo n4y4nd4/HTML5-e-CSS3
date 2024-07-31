@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+  }
+  
+  .cabecalho{
+    height: 80px;
+    border: solid 1px;
+    text-align: center;
+    margin: 3%;
+    background: green;
+  }
+  
+  .main{
+    height: 300px;
+    position: relative;
+  }
+  
+  .lateral{
+    height: 100%;
+    width: 15%;
+    border: solid 1px;
+    margin-left: 3%;
+    text-align: center;
+    float: left;
+    background-color: blue;
+  }
+  
+  .principal{
+    width: 75%;
+    height: 100%;
+    border: solid 1px;
+    margin-right: 3%;
+    float: right;
+    text-align: center;
+    background-color: red;
+  }
+  
+  .rodape{
+    margin: 3%;
+    height: 80px;
+    border: solid 1px;
+    text-align: center;
+    background-color: yellow
+  }
