@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family:'Noto Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #0a0001;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.menu{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around; 
+  top: 0;
+
+}
+
+header{
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  align-items: center;
+  text-align: left;
+  background-color: #0a0001;
+  padding-top: 15px;  
+}
+
+.port h2{ 
+  color: #b60707;
+  display: inline-flex;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+
+.list{
+  position:fixed;
+  display:flex;
+  gap: 3rem;
+  font-weight: 300;
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.list a{
+  color: #fff;
+  font-size: 15px;
+}
+
+.list a:hover{
+  color: #fff;
+  border-bottom: 1px solid #b60707;
+  
+}
+
+button{
+  color:#b60707;
+  background: transparent;
+  border: solid 1px #b60707;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:#b60707;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.principal{
+  text-align: center;
+  padding: 335px 0px 0px 50px;
+  font-size: 50px;
+  
+}
+
+.principal span{
+  color: #b60707;
+}
+
+.principal h2{
+  color:#fff;
+  font-size: 25px;
+}
+
+
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 60%;
+} 
+
+.sobre{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 150px 0px 0px 130px;
+  justify-content: center;
+  
+}
+
+.txt{
+  align-self: center;
+}
+
+txt h2{
+  margin-top: 10px;
+}
+
+.sobre span{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color:#b60707;
+  padding: 10px 0px 0px 10px;
+  font-size: 50px;
+
+  
+}
+
+.sobre p{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color: #fff;
+  text-align:justify;
+  padding: 10px 0px 0px 10px;
+}
+
+.formacao{
+  width: 100%;
+  height: 100vh;
+  padding: 150px 0px 0px 130px;
+ 
+}
+
+.formacao span{
+   display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color:#b60707;
+  padding: 10px 0px 0px 10px;
+  font-size: 50px;
+  
+}
+
+.formacao p{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color: #fff;
+  text-align:justify;
+  padding: 10px 0px 0px 10px;
+}
+
+.conhecimentos{
+  width: 100%;
+  height: 150vh;
+  padding: 150px 0px 0px 130px;
+  justify-content: center ;
+}
+
+.conhecimentos span{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color:#b60707;
+  padding: 10px 0px 0px 10px;
+  font-size: 50px;
+  
+}
+
+.conhecimentos p{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color: #fff;
+  text-align:justify;
+  padding: 10px 0px 0px 10px;
+ 
+}
+
+.projetos{
+  width: 100%;
+  height: 150vh;
+  padding: 150px 0px 0px 130px;
+}
+
+.projetos span{
+  display: flex;
+  height: 100%;
+  width: 1130px;
+  margin: 0 auto;
+  gap: 20px;
+  color:#b60707;
+  padding: 10px 0px 0px 10px;
+  font-size: 50px;
+}
+
+.projetos p{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+
+.card{
+  background-color: #200909 ;
+  height: 200px;
+  width: 300px;
+  border: 20px;
+  border-radius: 100px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color:#b60707;
+}
+
+
+.box{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  min-height: 100px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.midias{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  
+}
+
+.midias a{
+  color: #b60707;
+  text-decoration: none;
+    
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#contato{
+  color: #fff;
+}
+
+
+
+
+

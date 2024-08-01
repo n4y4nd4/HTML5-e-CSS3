@@ -1,0 +1,406 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  
+  background-color: #260801;  
+  width: 100%;
+  height: 100vh;
+  scroll-behavior:smooth;
+  
+}
+
+.home,
+.carnesExoticas,
+.carnesNobres,
+.quemSomos,
+.localizacao {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+
+.principal{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding: 300px 0px 0px 70px;
+  
+}
+
+.menu{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around; 
+  
+
+}
+
+header{
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  text-align: left;
+  background-color:#120f0f;
+}
+
+.logo{ 
+  height: 70px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: 0;
+  
+}
+
+
+.list{
+  position:fixed;
+  display:flex;
+  font-weight: 300;
+  cursor: pointer;
+  width: 100%;
+  justify-content:space-evenly;
+  
+}
+.list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.list a{
+  color: #fff;
+  font-size: 20px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+
+}
+
+
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 5%;
+  
+}
+
+.fotos img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 160px;
+  border-radius:16px;
+  cursor:pointer;
+}
+
+.content p{
+  margin-top: -100px; 
+  font-size: 30px;
+  
+}
+.botaoCard{
+  background-color: transparent;
+  border: solid 1px #fff;
+  border-radius: 25px;
+  color: #fff;
+  width: 90px;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.botaoCard:hover{
+  background-color: #260801; 
+}
+
+.fotos{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background-color: #120f0f;
+  border-radius: 16px;
+  color:#fff;
+
+}
+
+.carnesNobres{
+  padding: 100px 100px 200px 50px;
+}
+.ft
+{ 
+  display: flex;
+  padding: 100px 100px 200px 50px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.carnesExoticas{ 
+  padding: 100px 100px 200px 50px;
+
+}
+
+.quemSomos{
+padding: 100px 100px 200px 50px;
+
+}
+
+
+.quemSomos p{
+  font-size: 21px;
+   color:#fff;
+}
+
+.localizacao{
+  padding: 100px 100px 200px 50px;
+}
+
+
+iframe{
+  width: 80%;
+  height: 60vh;
+  margin-left: 10%;
+  
+} 
+
+
+
+
+footer {
+ padding: 100px 100px 200px 50px;
+}
+
+.contatoForm{
+    display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  justify-content: center ;
+  padding: 100px 100px 200px 50px;
+  
+}
+
+
+form {
+  max-width: 100%;
+  background-color: #120f0f;
+  padding: 100px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+
+textarea {
+  height: 100px;
+  width: 97%;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #120f0f;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.btn:hover {
+
+   background-color: #555;
+        }
+
+.selectDropdown{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*ESTILO RADIO*/
+
+fieldset {
+  border: 0;
+}
+
+.opcaoP div {
+  background-color: white;
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.checkedP div {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='25px' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352a96 96 0 1 1 0 192 96 96 0 1 1 0-192z'/%3E%3C/svg%3E");
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* ESTILO DO CHECKBOX */
+
+.opcaoC div {
+  background-color: white;
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.checkedC {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Estilo intermediario do checkbox que so será aplicado no "ambos"*/
+.inter {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+
+
+/* ESTILO "SELECT"  DROPDOW */
+
+ .contentDrop {
+  display: none;
+}
+
+.dropTxt{
+  padding: 4px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  border-right: none;
+}
+.drop{
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  display: block;
+}
+
+.contentDrop{
+  text-align: center;
+  width: 115px;
+  padding: 4px;
+} 
+
+.contentDrop span{
+  cursor: pointer;
+  width: 119px;
+  border: none;
+  color: white;
+} 
+.contentDrop span:hover{
+  background-color: rgb(31, 30, 30);
+  border-radius: 15px;
+}
+
+.select{
+  border: 1px solid black;
+  width: 125px;
+  align-items: center;
+}
+
+#selectorIcon{
+  cursor: pointer;
+  font-size: 10px;
+  transition: all .5s;
+} 
+.move{
+  cursor: pointer;
+  font-size: 10px;
+  transition: all .5s;
+  transform: rotate(3.142rad);
+}
+
+.oi{
+  display:flex;
+  align-items:center;
+  gap: 35px;
+}
